@@ -1147,6 +1147,35 @@ button:hover {
   border-radius: 10px;
 }
 
+/* Review Styling */
+.review-container {
+  padding: 40px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.review-header {
+  display: flex;
+  gap: 40px;
+}
+
+.review-images img {
+  border-radius: 15px;
+}
+
+#black {
+  height: auto;
+  width: 130px;
+  margin-top: 20px;
+}
+
+#white {
+  margin-left: 20px;
+}
+
+
+fxdxz
+
+
 @media only screen and (max-width: 600px) {
   .home-logo {
     display: flex;
@@ -1500,6 +1529,11 @@ button:hover {
   .shop-products-header {
     display: flex;
     gap: 120px;
+  }
+
+  .review-header {
+    display: flex;
+    flex-direction: column;
   }
 }
 
