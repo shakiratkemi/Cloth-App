@@ -136,8 +136,8 @@ body {
 .nav-container {
   display: flex;
   justify-content: space-between;
-  border-top: 1.5px solid rgb(171, 171, 171);
-  border-bottom: 1.5px solid rgb(171, 171, 171);
+  border-top: 1px solid rgb(242, 243, 245);
+  border-bottom: 1px solid rgb(242, 243, 245);
   margin-right: 20px;
   margin-left: 40px;
   font-family: "DM Sans", sans-serif;
@@ -806,7 +806,7 @@ button:hover {
 }
 
 .benefits-icon {
-  font-size: 20px;
+  font-size: 50px;
 }
 
 .benefits-text {
@@ -1352,6 +1352,365 @@ button:hover {
   font-size: 16px;
 }
 
+/* Cart Styling */
+
+.bag-container {
+  display: flex;
+  font-family: "Hind Siliguri", sans-serif;
+  padding: 40px;
+  margin-top: 40px;
+  gap: 40px;
+}
+
+.shopping-bag {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.shopping-bag h1,
+.cart-total-header {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.bag-details-header,
+.bag-details {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(171, 171, 171);
+  border-left: 1px solid rgb(171, 171, 171);
+  border-right: 1px solid rgb(171, 171, 171);
+  border-bottom: 1px solid rgb(171, 171, 171);
+  padding: 20px;
+  width: 700px;
+  align-items: center;
+}
+
+.bag-details .review-quantity {
+  border: 1px solid rgb(242, 243, 245);
+  font-size: 20px;
+}
+
+.coupon-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.coupon {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  border: 1px solid rgb(242, 243, 245);
+  background-color: rgb(242, 243, 245);
+  justify-content: center;
+  color: rgb(171, 171, 171);
+  width: 500px;
+  height: 50px;
+}
+
+.coupon input {
+  outline: none;
+  border: none;
+  background-color: rgb(242, 243, 245);
+  margin-left: 10px;
+}
+
+.coupon-container button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  height: 40px;
+  border-radius: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.coupon-container button:hover {
+  background-color: rgb(251, 60, 60);
+  border: 1px solid rgb(251, 60, 60);
+}
+
+.cart-totals {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.subtotal,
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(171, 171, 171);
+  border-left: 1px solid rgb(171, 171, 171);
+  border-right: 1px solid rgb(171, 171, 171);
+  padding: 20px;
+  width: 450px;
+}
+
+.checkout {
+  border-left: 1px solid rgb(171, 171, 171);
+  border-right: 1px solid rgb(171, 171, 171);
+  border-bottom: 1px solid rgb(171, 171, 171);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+
+.cart-totals button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  height: 70px;
+  border-radius: 0px;
+  margin-top: 0px;
+  cursor: pointer;
+  width: 300px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.cart-totals button:hover {
+  background-color: rgb(251, 60, 60);
+  border: 1px solid rgb(251, 60, 60);
+}
+
+#total-price {
+  font-size: 23px;
+}
+
+/* About styling */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  font-family: "Hind Siliguri", sans-serif;
+  padding: 40px;
+}
+
+.about-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.about-header h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.about-container img {
+  width: 100%;
+}
+
+.simple-container {
+  display: flex;
+  margin: 80px 0px 100px 0px;
+  gap: 60px;
+}
+
+.simple-header {
+  line-height: 1.3;
+}
+
+.simple-container h1 {
+  font-size: 41px;
+  width: 300px;
+}
+
+.simple-container p,
+.about-content-info p {
+  color: rgb(108, 111, 113);
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+  line-height: 1.5;
+}
+
+.about-content {
+  display: flex;
+  padding: 30px;
+  gap: 50px;
+}
+
+.about-content img {
+  width: 700px;
+  border-radius: 10px;
+  height: 450px;
+}
+
+.about-content-info {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: -60px;
+}
+
+#red {
+  margin-bottom: 20px;
+  color: rgb(255, 0, 0);
+  font-size: 20px;
+}
+
+.about-content-info h1 {
+  font-size: 50px;
+  line-height: 1;
+}
+
+.about-content-info p {
+  font-size: 17px;
+}
+
+.achievements {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.layout {
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+  font-family: "DM Sans", sans-serif;
+  border-right: 1.5px solid rgb(242, 243, 245);
+  padding: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout:hover {
+  color: black;
+}
+
+.layout p {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* Contact Styling */
+.contact-container {
+  display: flex;
+  gap: 30px;
+  font-family: "Hind Siliguri", sans-serif;
+  padding: 40px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info #red {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.contact-info h1 {
+  font-size: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-info input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(242, 243, 245);
+  padding: 20px;
+}
+
+#question {
+  border-radius: 10px;
+  background-color: rgb(242, 243, 245);
+  padding: 20px;
+  border: 1px solid rgb(242, 243, 245);
+  color: rgb(108, 111, 113);
+}
+
+.contact-info button {
+  color: white;
+  width: 150px;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.contact-details-container {
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+  font-family: "DM Sans", sans-serif;
+}
+
+.contact-details {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact-details i {
+  background-color: rgb(242, 243, 245);
+  color: rgb(255, 0, 0);
+  font-size: 50px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.contact-details i:hover {
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contact-text span {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(108, 111, 113);
+  font-family: "DM Sans", sans-serif;
+}
+
+/* Blog Styling */
+.blog-container {
+  padding: 80px 40px 40px 40px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.blog-container .recent-posts {
+  flex-wrap: wrap;
+}
+
+.blog-container .post h3 {
+  font-family: "Hind Siliguri", sans-serif;
+}
+
+.blog-container .post button {
+  width: 150px;
+  height: 60px;
+}
+
 @media only screen and (max-width: 600px) {
   .home-logo {
     display: flex;
@@ -1530,6 +1889,7 @@ button:hover {
   .product img {
     border-radius: 10px;
     width: 500px;
+    height: auto;
   }
 
   .accessories-2 {
@@ -1718,6 +2078,116 @@ button:hover {
 
   #large-image {
     width: 500px;
+  }
+
+  /* .choice-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+
+  .rev */
+
+  .bag-container {
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .bag-details-header,
+  .bag-details {
+    width: 500px;
+  }
+
+  .coupon-container {
+    width: 500px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .coupon {
+    flex-direction: column;
+  }
+
+  .coupon-container button {
+    width: 500px;
+  }
+
+  .simple-container {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .about-header h1 {
+    font-size: 30px;
+  }
+
+  .simple-header {
+    line-height: 1.3;
+  }
+
+  .simple-header {
+    display: flex;
+  }
+
+  .simple-container h1,
+  .about-content-info h1 {
+    font-size: 30px;
+  }
+
+  .simple-container p,
+  .about-content-info p {
+    font-size: 14px;
+  }
+
+  .about-content {
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .about-content img {
+    width: 500px;
+    height: auto;
+  }
+
+  .about-content-info {
+    margin-top: 0px;
+  }
+
+  #red {
+    font-size: 14px;
+  }
+
+  .achievements {
+    flex-direction: column;
+  }
+
+  .layout {
+    font-size: 40px;
+    border-right: none;
+  }
+
+  .layout p {
+    font-size: 14px;
+  }
+
+  .contact-container {
+    flex-direction: column-reverse;
+  }
+
+  .contact-details-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .contact-details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact-text {
+    align-items: center;
   }
 }
 
@@ -2014,5 +2484,46 @@ button:hover {
     height: 60px;
     align-items: center;
     justify-content: center;
+  }
+
+  .bag-details-header {
+    display: none;
+  }
+
+  .bag-details {
+    width: 300px;
+    flex-direction: column;
+  }
+
+  .bag-details .review-quantity {
+    width: 200px;
+  }
+
+  .coupon-container {
+    width: 300px;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .coupon-container button {
+    width: 300px;
+  }
+
+  .subtotal,
+  .total {
+    width: 300px;
+  }
+
+  .about-header h1 {
+    text-align: center;
+  }
+
+  .simple-header h1 {
+    font-size: 20px;
+  }
+
+  .about-content img {
+    width: 300px;
+    height: auto;
   }
 }
