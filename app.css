@@ -614,7 +614,7 @@ button:hover {
 .summer-sale-info {
   position: absolute;
   background-color: white;
-  top: 80px;
+  top: 50px;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
@@ -636,12 +636,21 @@ button:hover {
 }
 
 .summer-sale-info h1 {
-  font-size: 70px;
-  /* color: transparent; */
+  font-size: 150px;
+  /* mix-blend-mode: screen; */
+  position: relative;
+  color: black;
+  opacity: 0.9;
 }
 
 .summer-sale-info a {
   color: black;
+}
+
+.percent {
+  position: absolute;
+  top: 20px;
+  font-size: 30px;
 }
 
 .suit-collection {
